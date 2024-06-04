@@ -8,7 +8,7 @@
 
 .centered-name {
   position: absolute;
-  bottom: 80%;
+  bottom: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5em; /* Adjust the font size as needed */
