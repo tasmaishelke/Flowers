@@ -6,8 +6,37 @@
   box-sizing: border-box;
 }
 
+.centered-name {
+  position: absolute;
+  bottom: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5em; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #9a3c5a; /* Change the color as needed */
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* Adjust the background color if necessary */
+}
+
+/* Existing CSS for other elements */
+
+
 :root {
   --dark-color: #000;
+}
+
+p{
+  text-align: center;
 }
 
 body {
